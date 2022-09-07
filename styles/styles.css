@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.brand-title {
+  text-align: center;
+}
+
+.brand-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: blue;
+}
+.pp-container {
+  margin: 3% 3%;
+}
+
+hr {
+  color: rgb(170, 169, 169);
+  margin-bottom: 0;
+}
+
+.icon {
+  margin: 0 3%;
+}
+
+.icon:hover {
+  padding: 1%;
+  color: blue;
+  border: 0.5px solid grey;
+  border-radius: 100%;
+}
+.navbar {
+  background-color: #fff;
+  padding: 2%;
+}
+
+.baldwin-quote-container {
+  background-color: bisque;
+  padding: 3% 10%;
+  text-align: center;
+}
+.social-media-icons {
+  text-align: center;
+}
+.search-bar {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .baldwin-quote-container {
+    text-align: center;
+  }
+
+  .social-media-icons {
+    text-align: center;
+  }
+
+  .search-bar {
+    margin: 0 auto;
+  }
+
+  .social-media-icons {
+    padding: 3%;
+  }
+
+  .brand-title {
+    padding: 2%;
+  }
+}
+
+.quote {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 2%;
+}
+
+.author {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+.statistics {
+  margin: 3% 8%;
+  text-align: center;
+}
+
+.ambedkar-image {
+  width: 400px;
+  height: 525.5px;
+  padding: 0;
+}
+
+.about-company {
+  background-color: bisque;
+  padding: 3% 18%;
+}
+
+.books {
+  margin: 3% 3%;
+}
+
+.book {
+  margin: 0 10px;
+}
