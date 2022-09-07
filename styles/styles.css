@@ -38,8 +38,9 @@ hr {
 
 .baldwin-quote-container {
   background-color: bisque;
-  padding: 3% 10%;
+  padding: 3% 8%;
   text-align: center;
+  margin: 0 0;
 }
 .social-media-icons {
   text-align: center;
@@ -53,7 +54,7 @@ hr {
     text-align: center;
   }
 
-  .social-media-icons {
+  . .social-media-icons {
     text-align: center;
   }
 
@@ -97,7 +98,8 @@ hr {
 
 .about-company {
   background-color: bisque;
-  padding: 3% 18%;
+  padding: 3% 10%;
+  margin: 0 0;
 }
 
 .books {
