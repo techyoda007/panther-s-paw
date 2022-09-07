@@ -6,7 +6,10 @@
   text-align: center;
 }
 
-.brand-name {
+.toggler-button {
+  border: none;
+}
+to .brand-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 1.5rem;
@@ -49,28 +52,6 @@ hr {
   text-align: center;
 }
 
-@media (max-width: 900px) {
-  .baldwin-quote-container {
-    text-align: center;
-  }
-
-  . .social-media-icons {
-    text-align: center;
-  }
-
-  .search-bar {
-    margin: 0 auto;
-  }
-
-  .social-media-icons {
-    padding: 3%;
-  }
-
-  .brand-title {
-    padding: 2%;
-  }
-}
-
 .quote {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -108,4 +89,37 @@ hr {
 
 .book {
   margin: 0 10px;
+}
+
+@media (max-width: 900px) {
+  .baldwin-quote-container {
+    text-align: center;
+  }
+
+  .social-media-icons {
+    text-align: center;
+  }
+
+  .search-bar {
+    margin: 0 auto;
+  }
+
+  .social-media-icons {
+    padding: 3%;
+  }
+
+  .brand-title {
+    padding: 2%;
+  }
+
+  .quote {
+    font-size: 1.5rem;
+    margin-top: 7%;
+  }
+
+  .baldwin-image {
+    width: 216.5px;
+    height: 288.4px;
+    margin-top: 30px;
+  }
 }
