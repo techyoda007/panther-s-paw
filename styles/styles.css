@@ -13,7 +13,7 @@ to .brand-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 1.5rem;
-  color: blue;
+  color: rgb(0, 0, 255);
 }
 .pp-container {
   margin: 3% 3%;
@@ -30,8 +30,8 @@ hr {
 
 .icon:hover {
   padding: 1%;
-  color: blue;
-  border: 0.5px solid grey;
+  color: rgb(0, 0, 255);
+  border: 0.5px solid rgb(128, 128, 128);
   border-radius: 100%;
 }
 .navbar {
@@ -40,7 +40,7 @@ hr {
 }
 
 .baldwin-quote-container {
-  background-color: bisque;
+  background-color: #ffe4c4;
   padding: 3% 8%;
   text-align: center;
   margin: 0 0;
@@ -78,17 +78,39 @@ hr {
 }
 
 .about-company {
-  background-color: bisque;
+  background-color: #ffe4c4;
   padding: 3% 10%;
   margin: 0 0;
 }
 
-.books {
-  margin: 3% 3%;
-}
-
 .book {
   margin: 0 10px;
+}
+
+#footer {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+}
+
+.copyright {
+  padding: 1% 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.footer-icon {
+  padding: 20px;
+}
+
+.footer-icon:hover {
+  padding: 1%;
+  color: rgb(0, 0, 255);
+  border: 0.5px solid rgb(128, 128, 128);
+  border-radius: 100%;
 }
 
 @media (max-width: 900px) {
